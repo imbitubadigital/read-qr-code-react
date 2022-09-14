@@ -88,6 +88,10 @@ const handleGetCoordinates = useCallback((latlng: PropLatLng) => {
 </MapContainer>
 </div>
 )}
+        <div className={styles.btns}>
+            <a href="#">Click Me</a>
+            <a href="#">Click Me</a>
+        </div>
     </main>
   );
 }
