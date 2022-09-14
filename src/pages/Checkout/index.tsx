@@ -51,7 +51,7 @@ export function Checkout() {
   const [payment, setPayment] = useState('');
   const [years, setYears] = useState([10]);
  // const { code } = useParams();
-
+console.log('aquii',  import.meta.env.VITE_APP_PAYMENT_ENV)
   useEffect(() => {
     function createYear() {
       const start = new Date().getFullYear();
