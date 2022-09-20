@@ -176,14 +176,7 @@ console.log('aquii',  import.meta.env.VITE_APP_PAYMENT_ENV)
     } else {
       setErrorForm('');
       setLoading(true);
-      alert('passou')
-      console.log('aquiiii',    {
-            brand,
-            number: numCard,
-            cvv,
-            expiration_month: month,
-            expiration_year: year,
-          })
+
       window.getPaymentToken(
         {
           brand,
