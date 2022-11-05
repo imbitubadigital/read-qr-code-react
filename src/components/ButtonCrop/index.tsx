@@ -8,6 +8,7 @@ import Modal from 'react-modal';
 import Cropper from 'react-easy-crop'
 import Slider from 'rc-slider';
 import 'rc-slider/assets/index.css';
+
 import { AreaProps, ButtonCropProps } from './interfaces';
 
 
